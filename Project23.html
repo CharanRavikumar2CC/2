@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>Javascript Array Methods</h2>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var numbers = ["25", "55", "114", "500", "237"] ;
+        document.getElementById("myjoin").innerHTML = numbers.join(" * ");
+        document.getElementById("myfirstpop").innerHTML = numbers;
+        numbers.pop();
+        document.getElementById("mysecondpop").innerHTML = numbers;
+    </script>
+</body>
+
+</html>
